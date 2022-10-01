@@ -1,0 +1,72 @@
+body{
+  background-image: url(background.jpg);
+  background-size: 100%;
+  padding: 5%;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 2%;
+  padding: 2%;
+}
+
+/* Logo */
+.logo{
+  margin-top: 10%;
+  text-align: center;
+}
+
+.logo-img{
+  width: 250px;
+}
+
+.logo-text{
+  color: #00CD00;
+  font-family: sans-serif;
+}
+
+/* Barra navigazione */
+.navigazione{
+  background-color: #00CD00;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Sezione monopattini */
+.veicolo{
+  margin-bottom: 3%;
+  color: white;
+  font-family: sans-serif;
+}
+
+.nomeveicolo{
+  margin: auto;
+  display: inline-block;
+}
+
+.batteria1{
+  background-color: orange;
+  width: 45%;
+  border-radius: 3%;
+  padding: 5px;
+}
+
+.batteria2{
+  background-color: green;
+  width: 75%;
+  border-radius: 3%;
+  padding: 5px;
+}
+
+.batteria3{
+  background-color: red;
+  width: 15%;
+  border-radius: 3%;
+  padding: 5px;
+}
+
+.posizione:before{
+  content: "\2192";
+}
